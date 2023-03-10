@@ -64,35 +64,35 @@ const SavingInvestment = () => {
                     <div className="flex items-center justify-between py-10 border-b">
                         <div className="flex items-center gap-8">
                             <div className="text-slate-600 text-2xl font-semibold">01</div>
-                            <div className="text-2xl">For how long can I invest?</div>
+                            <div className="text-lg md:text-2xl">For how long can I invest?</div>
                         </div>
                         <div className=""> <SlArrowDown /> </div>
                     </div>
                     <div className="flex items-center justify-between py-10 border-b">
                         <div className="flex items-center gap-8">
                             <div className="text-slate-600 text-2xl font-semibold">02</div>
-                            <div className="text-2xl">What happens if I withdraw before the maturity date?</div>
+                            <div className="text-lg md:text-2xl">What happens if I withdraw before the maturity date?</div>
                         </div>
                         <div className=""> <SlArrowDown /> </div>
                     </div>
                     <div className="flex items-center justify-between py-10 border-b">
                         <div className="flex items-center gap-8">
                             <div className="text-slate-600 text-2xl font-semibold">03</div>
-                            <div className="text-2xl">Is there a lock on my investment?</div>
+                            <div className="text-lg md:text-2xl">Is there a lock on my investment?</div>
                         </div>
                         <div className=""> <SlArrowDown /> </div>
                     </div>
                     <div className="flex items-center justify-between py-10 border-b">
                         <div className="flex items-center gap-8">
                             <div className="text-slate-600 text-2xl font-semibold">04</div>
-                            <div className="text-2xl">Can I do a top-up on a running investment?</div>
+                            <div className="text-lg md:text-2xl">Can I do a top-up on a running investment?</div>
                         </div>
                         <div className=""> <SlArrowDown /> </div>
                     </div>
                     <div className="flex items-center justify-between py-10 border-b">
                         <div className="flex items-center gap-8">
                             <div className="text-slate-600 text-2xl font-semibold">05</div>
-                            <div className="text-2xl">How safe is my investment?</div>
+                            <div className="text-lg md:text-2xl">How safe is my investment?</div>
                         </div>
                         <div className=""> <SlArrowDown /> </div>
                     </div>
