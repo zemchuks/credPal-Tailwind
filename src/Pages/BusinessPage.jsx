@@ -212,7 +212,7 @@ const BusinessPage = () => {
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex flex-col items-center ml-[10%] md:ml-0 relative gap-3">
+                        <div className="flex flex-col md:flex-row items-center ml-[10%] md:ml-0 relative gap-3">
                             <img src={iphonedata} alt="" className='mt-5 ml-2' />
                             <img src={card} alt="" className='mt-7' />
                             <img src={phone1} alt="" className='absolute top-2 md:top-9 bottom-0' />
