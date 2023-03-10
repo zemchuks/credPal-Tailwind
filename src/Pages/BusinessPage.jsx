@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaUser } from 'react-icons/fa'
-import { frm, frm1, frm2, long, rec, phone1, gplay, appplay, card, iphonedata } from '../components/images'
+import { frm, frm1, frm2, long, rec, phone1, gplay, appplay, card, iphonedata, group } from '../components/images'
 import Navbar from '../components/Navbar'
 import icon from "../assets/Vector.svg"
 import { GoPlug } from "react-icons/go";
@@ -13,9 +13,16 @@ const BusinessPage = () => {
     return (
         <>
             <Navbar bgcolor='#000' icon={icon} buttoncolor='bg-white text-black' textcolor='white' />
-            <div className="h-[35rem] md:h-[41rem]">
-                <div className="bg-black h-[30rem] xl:h-[30rem] md:h-[30rem] pt-32">
-                    <div className="text-slate-200/70 text-xl text-center pb-6 px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
+            <div className="bggroup h-[20rem] md:h-[45rem] lg:h-[60rem] bg-contain">
+                <div className="text-slate-200/70 text-sm md:text-xl lg:text-3xl pt-10 md:pt-32 lg:pt-32 text-center px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
+            </div>
+            {/* <div className="">
+                <div className="bg-black">
+                    <div className="text-slate-200/70 text-xl text-center px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
+                    <div className="bggroup w-full h-[46rem]"></div>
+                    <div className="relative border border-red-600">
+                        <img src={group} alt="" className="border border-red-orange object-cover object-center w-full h-[35rem] md:h-[43rem] " />
+                    </div>
                     <div className="container mx-auto flex h-[40rem] overflow-hidden relative items-center justify-center">
                         <img src={rec} alt="" className="h-[26.1rem] md:h-[40rem] " />
                         <div className="absolute flex items-center left-6 md:left-52 gap-1 top-[18%] md:top-4">
@@ -35,9 +42,9 @@ const BusinessPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="bg-slate-50 pb-32">
-                <div className="mt-40 container mx-auto mb-20 pt-40 px-6">
+                <div className="container mx-auto mb-20 pt-40 px-6">
                     <div className="w-full max-w-[90%] md:max-w-[60%]">
                         <div className="text-zinc-600 font-semibold">THE CREDPAL ADVANTAGE</div>
                         <div className="font-bold text-5xl md:text-6xl py-10">Increase conversion for <br /> your business</div>

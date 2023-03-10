@@ -31,8 +31,10 @@ import Femalefull from '../assets/femalefull.png'
 import Tosave from '../assets/tosave.png'
 import Vault from '../assets/vault.png'
 import Goals from '../assets/goals.png'
+import Group from '../assets/group.png'
 
 
+export const group = Group
 export const goals = Goals
 export const vault = Vault
 export const tosave = Tosave
