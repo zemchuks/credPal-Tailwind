@@ -112,20 +112,22 @@ const SavingInvestment = () => {
                     <div className="flex flex-col justify-center w-11/12 md:w-3/4 mx-auto gap-8">
                         <div className="font-bold text-5xl text-slate-900">Join CredPal today</div>
                         <div className="text-xl pt-4 pb-9">Join the millions of happy customers using CredPal to <br /> access credit, make payments, invest, and more by downloading the CredPal app.</div>
-                        <div className="flex items-center gap-3">
+                        <div className="flex mb-10 mx-auto items-center gap-3">
                             <img src={gplay} alt="" />
                             <img src={appplay} alt="" />
                         </div>
                     </div>
                     <div className="">
-                        <div className="flex items-center ml-[10%] md:ml-0 relative gap-3">
+                        <div className="flex flex-col items-center ml-[10%] md:ml-0 relative gap-3">
                             <img src={iphonedata} alt="" className='mt-5 ml-2' />
                             <img src={card} alt="" className='mt-7' />
-                            <img src={phone1} alt="" className='absolute top-9 bottom-0' />
+                            <img src={phone1} alt="" className='absolute top-2 md:top-9 bottom-0' />
                         </div>
                     </div>
                 </div>
             </div>
+
+
 
             <Footer />
 
