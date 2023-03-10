@@ -83,7 +83,7 @@ const BusinessPage = () => {
                 <div className="w-full max-w-3xl mx-auto mb-32">
                     <div className="text-center font-semibold text-6xl">CredPal Trending Merchants</div>
                     <div className="text-center text-xl pt-10 pb-20 font-light">We have the very best merchants across all categories you can <br /> think of for complete shopping experience.</div>
-                    <div className="grid grid-cols-5 px-6">
+                    <div className="grid grid-cols-3 md:grid-cols-5 px-6">
                         <div className="text-center text-sm md:text-lg py-3 bg-blue-600 font-semibold rounded-full text-white">All Category</div>
                         <div className="text-center text-sm md:text-lg py-3 text-zinc-600 font-semibold">Electronics</div>
                         <div className="text-center text-sm md:text-lg py-3 text-zinc-600 font-semibold">Health</div>
