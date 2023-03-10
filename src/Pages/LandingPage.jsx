@@ -18,7 +18,7 @@ const LandingPage = () => {
                     <Hero />
                 </div>
                 <div className="flex items-center gap-7 my-10 justify-center flex-col">
-                    <div className="text-5xl mt-32 font-bold">Our customers love us</div>
+                    <div className="text-4xl text-center md:text-5xl mt-32 font-bold">Our customers love us</div>
                     <div className="text-slate-500 text-2xl">Read what they have to say</div>
                 </div>
                 <div className="grid grid-cols-1 gap-7 md:grid-cols-3 mx-auto container mt-24 mb-5">

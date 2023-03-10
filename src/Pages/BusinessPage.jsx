@@ -16,33 +16,6 @@ const BusinessPage = () => {
             <div className="bggroup h-[20rem] md:h-[45rem] lg:h-[60rem] bg-contain">
                 <div className="text-slate-200/70 text-sm md:text-xl lg:text-3xl pt-10 md:pt-32 lg:pt-32 text-center px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
             </div>
-            {/* <div className="">
-                <div className="bg-black">
-                    <div className="text-slate-200/70 text-xl text-center px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
-                    <div className="bggroup w-full h-[46rem]"></div>
-                    <div className="relative border border-red-600">
-                        <img src={group} alt="" className="border border-red-orange object-cover object-center w-full h-[35rem] md:h-[43rem] " />
-                    </div>
-                    <div className="container mx-auto flex h-[40rem] overflow-hidden relative items-center justify-center">
-                        <img src={rec} alt="" className="h-[26.1rem] md:h-[40rem] " />
-                        <div className="absolute flex items-center left-6 md:left-52 gap-1 top-[18%] md:top-4">
-                            <div className="p-1 md:p-2 rounded-full bg-zinc-600"></div>
-                            <div className="p-1 md:p-2 rounded-full bg-zinc-600"></div>
-                            <div className="p-1 md:p-2 rounded-full bg-zinc-600"></div>
-                        </div>
-                            <div className="flex w-[95%] md:w-[73%]  overflow-hidden mx-auto items-center absolute md:top-0 mt-10">
-                            <div className="">
-                                <img src={long} alt="" className="h-[26.1rem] md:h-[49.9rem] rounded-tl-lg" />
-                            </div>
-                            <div className="w-full -ml-[0.15rem]">
-                                <img src={frm} alt="" className="w-full rounded-tr-lg" />
-                                <img src={frm1} alt="" className="w-full" />
-                                <img src={frm2} alt="" className="w-full" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <div className="bg-slate-50 pb-32">
                 <div className="container mx-auto mb-20 pt-40 px-6">
                     <div className="w-full max-w-[90%] md:max-w-[60%]">
