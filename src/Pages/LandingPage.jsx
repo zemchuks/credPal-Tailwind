@@ -12,7 +12,7 @@ const LandingPage = () => {
     return (
         <div className="">
 
-            <Navbar bgcolor='#006DF7' icon={icon} buttoncolor='bg-white text-black' textcolor='white' />
+            <Navbar bgcolor='#006DF7' icon={icon} buttoncolor='bg-white text-black' iconcolor='white' textcolor='white' />
             <>
                 <div className="">
                     <Hero />

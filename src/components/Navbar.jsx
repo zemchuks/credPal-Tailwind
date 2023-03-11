@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import flag from '../assets/flag.png'
 import { SlArrowDown } from 'react-icons/sl'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon } from '@heroicons/react/24/outline'
 import { FaTimes } from "react-icons/fa"
 import icon from "../assets/icon.png"
 
@@ -11,7 +11,7 @@ const Navbar = (props) => {
     const [views, setViews] = useState(false)
     return (
         <>
-            {/* ---------------------- dropdown --------------- */}
+            {/* ---------------------- Hamburger dropdown menu --------------- */}
             {views && <div className={`bg-white h-screen w-full`}>
                 <div className="w-fit ml-auto cursor-pointer text-red-600 text-xl p-3" onClick={() => setViews(!views)}> <FaTimes /> </div>
 
@@ -27,6 +27,8 @@ const Navbar = (props) => {
                     <div className={`bg-blue-600 text-white w-fit text-sm rounded-full py-2.5 px-4 font-semibold`}>Download the Credpal app</div>
                 </div>
             </div>}
+
+                        {/* ********* Normal Nav menu ************ */}
             <div style={{ backgroundColor: `${props.bgcolor}` }}>
                 <div className='flex py-6 px-3 mx-auto container items-center justify-between'>
                     <div className='flex items-center gap-7'>
@@ -40,6 +42,7 @@ const Navbar = (props) => {
 
                     </div>
                     <div className="">
+                        {/* Hamburger menu icon */}
                         <div className="flex md:hidden">
                             <button
                                 type="button"
@@ -47,7 +50,7 @@ const Navbar = (props) => {
                                 onClick={() => setViews(!views)}
                             >
                                 <span className="sr-only">Open main menu</span>
-                                <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                                <Bars3Icon className={`h-8 w-8 text-${props.iconcolor}`} aria-hidden="true" />
                             </button>
                         </div>
                         <div className='hidden md:flex items-center md:gap-x-5'>

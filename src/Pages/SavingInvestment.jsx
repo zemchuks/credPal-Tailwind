@@ -10,7 +10,7 @@ const SavingInvestment = () => {
     return (
         <>
 
-            <Navbar bgcolor='#fffffff' icon={icon} buttoncolor='bg-blue-700 text-white' textcolor='black' />
+            <Navbar bgcolor='#fffffff' icon={icon} buttoncolor='bg-blue-700 text-white' iconcolor='black' textcolor='black' />
             <div className="container mx-auto px-6">
                 <div className="flex flex-col items-center">
                     <div className="text-center pt-20 font-bold text-5xl leading-snug">Take control of your finances with <br /> CredPal savings.</div>

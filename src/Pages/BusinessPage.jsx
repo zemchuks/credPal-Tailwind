@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaUser } from 'react-icons/fa'
-import { frm, frm1, frm2, long, rec, phone1, gplay, appplay, card, iphonedata, group } from '../components/images'
+import { phone1, gplay, appplay, card, iphonedata } from '../components/images'
 import Navbar from '../components/Navbar'
 import icon from "../assets/Vector.svg"
 import { GoPlug } from "react-icons/go";
@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 const BusinessPage = () => {
     return (
         <>
-            <Navbar bgcolor='#000' icon={icon} buttoncolor='bg-white text-black' textcolor='white' />
+            <Navbar bgcolor='#000' icon={icon} buttoncolor='bg-white text-black' iconcolor='white' textcolor='white' />
             <div className="bggroup h-[20rem] md:h-[45rem] lg:h-[60rem] bg-contain">
                 <div className="text-slate-200/70 text-sm md:text-xl lg:text-3xl pt-10 md:pt-32 lg:pt-32 text-center px-6">Join several fast-growing businesses and watch your sales increase by over 32%</div>
             </div>
